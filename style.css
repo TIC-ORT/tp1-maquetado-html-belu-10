@@ -1,5 +1,31 @@
 .top {
-   background-color: rgb(207, 50, 50);
-   height: 10vh; 
+   display: flex
+}
+
+.rec1 {
+   background-color: #c4ecf4;
+   height: 8vh; 
    width: 20vw; 
+}
+.rec2 {
+   background-color: #94d4dc;
+   height: 8vh; 
+   width: 100%; 
+   display: flex;
+   justify-content: flex-end;
+   align-items: center; 
+}
+
+.cajab {
+   height: 2.2vh; 
+   width:10vw;
+   background-color: white;
+   margin: 20px; /*es porque la class tiene el mismo nombre y le pongo un margen dee distancia para q no quede pegadpd*/
+}
+
+.cajar{
+   height: 2vh;
+   width: 5vw;
+   background-color: #f48464;
+   margin: 15px;
 }

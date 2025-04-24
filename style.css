@@ -29,3 +29,9 @@
    background-color: #f48464;
    margin: 15px;
 }
+
+.cuadradogris{
+   height: 20vh;
+   width: 20vh;
+   background-color: rgb(223, 219, 219);
+}

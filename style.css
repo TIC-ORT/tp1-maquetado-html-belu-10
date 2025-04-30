@@ -59,5 +59,16 @@
    width: 22vh;
    background-color: rgb(211, 208, 208);  
    margin-left: 52px;
+   margin-top: 11px;  
+}
+
+.recgris{
+   height: 3vh;
+   width: 14vh;
+   background-color: rgb(73, 73, 73);
+   margin-left: 77px;
    margin-top: 10px;  
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }

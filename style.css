@@ -30,8 +30,23 @@
    margin: 15px;
 }
 
+.medio1{
+   display: flex;
+}
+
 .cuadradogris{
-   height: 20vh;
-   width: 20vh;
-   background-color: rgb(223, 219, 219);
+   height: 27vh;
+   width: 27vh;
+   background-color: rgb(235, 231, 231);
+   margin: 35px; 
+   display: flex;
+   justify-content: center;
+   align-items: center; /*esto hace q se centre en el medio */
+}
+
+.cuadradooscuro{
+   height: 12vh;
+   width: 12vh;
+   background-color: rgb(211, 208, 208);
+   
 }

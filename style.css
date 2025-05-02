@@ -256,7 +256,7 @@
    width: 15vh;
    height: 1vh;
    background-color: rgb(211, 208, 208);
-   margin-top: 7px;
+   margin-top: 15px;
 }
 
 .renglon{
@@ -264,4 +264,12 @@
    height: 0.5vh;
    width: 15vh;
    background-color: rgb(211, 208, 208);
+}
+
+.renglonchico{
+   margin-top: 8px;
+   height: 0.5vh;
+   width: 8vh;
+   background-color: rgb(211, 208, 208);
+   margin-left: 27px;
 }

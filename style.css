@@ -32,9 +32,13 @@
 
 .medio1{
    display: flex;
+}
+
+.izquierda{
+   display: flex;
    flex-direction: column; /*esto hace q todo lo de la clase se vaya para abajo */
    justify-content: center;
-  
+   width: 25%;
 }
 
 .cuadradogris{
@@ -71,4 +75,127 @@
    display: flex;
    justify-content: center;
    align-items: center;
+}
+
+
+
+.derecha{ /*aca empieza lo q seria el carrusel ese de texto */
+   display: flex;
+   flex-direction: column; /*esto hace q todo lo de la clase se vaya para abajo */
+   justify-content: center;
+   width: 75%;
+}
+
+.titulo{
+   height: 1.8vh;
+   width: 30vh;
+   background-color: #4A4E58;
+   margin-top: 20px;
+   margin-left: 180px;
+}
+
+.LINEA{
+   height: 0.7vh;
+   width: 80vh;
+   background-color: #cccccc;
+   margin-left: 180px;
+   margin-top: 12px;
+}
+
+.LINEApetit{
+   height: 0.7vh;
+   width: 40vh;
+   background-color: #cccccc;
+   margin-left: 350px;
+   margin-top: 12px;
+}
+
+
+
+
+
+
+
+
+.medio2{ /*aca empieza la parte de lo que serian todas las fotos*/
+   display: flex;
+}
+
+
+.fotitos{
+   display: flex;
+   flex-direction: column;
+}
+.filaarriba{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   margin-top: 35px;
+   margin-left: 35px;
+}
+.cuadradogrisoscuro{
+   height: 27vh;
+   width: 27vh;
+   background-color: #4A4E58;
+}
+
+
+.cuadradoceleste{
+   height: 27vh;
+   width: 27vh;
+   background-color: #94d4dc;
+   margin-left: 25px;
+}
+
+
+.filaabajo{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   margin-top: 25px;
+   margin-left: 35px;
+}
+.cuadradoamarillo{
+   height: 27vh;
+   width: 27vh;
+   background-color: #e7e297;
+}
+
+
+.cuadradogrisclaro{
+   height: 27vh;
+   width: 27vh;
+   background-color: rgb(211, 208, 208);
+   margin-left: 25px;
+}
+
+
+.cuadradogrande{
+   height: 57vh;
+   width: 57vh;
+   background-color: #c4ecf4;
+   margin-left: 25px;
+   margin-top: 35px;
+}
+
+
+.columna{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 35px;
+   margin-left: 25px;
+}
+.cuadradoamarillo2{
+   height: 27vh;
+   width: 27vh;
+   background-color: #e7e297;
+}
+
+
+.cuadradogrisoscuro2{
+   height: 27vh;
+   width: 27vh;
+   background-color: #4A4E58;
+   margin-top: 25px;
 }
